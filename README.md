@@ -2,14 +2,17 @@
 
 This repository holds the brief/spec for **ARJUN**, a daily portfolio-intelligence
 routine that publishes six colour-coded Gmail drafts (Portfolio Desk, Market
-Pulse, MF & Radar, CA Corner, The Masters, Journal) built from live Tapetide
-market data and a Notion knowledge base.
+Pulse, MF & Radar, CA Corner, The Masters, Journal) built from live Groww
+portfolio and market data, Tapetide's deep-dive institutional analysis, and a
+Notion knowledge base.
 
 The full specification lives at
 [`.claude/skills/arjun-portfolio-advisor/SKILL.md`](.claude/skills/arjun-portfolio-advisor/SKILL.md)
-as a Claude Code skill: invoke it with a session that has the Tapetide,
-Notion, Gmail, and Google Calendar MCP servers connected to run the daily
-publication routine end to end.
+as a Claude Code skill: invoke it with a session that has the Groww,
+Tapetide, Notion, Gmail, and Google Calendar MCP servers connected to run the
+daily publication routine end to end. Groww is the portfolio truth and the
+unlimited routine-data engine; Tapetide's calls are capped at 50/day and
+reserved for institutional-grade deep dives.
 
 **Note:** this repo stores the specification only. It does not itself send
 email, write to Notion, or touch a calendar — running the routine requires an
